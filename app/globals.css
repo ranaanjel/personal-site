@@ -2,7 +2,7 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
@@ -51,14 +51,12 @@ body {
   transform: scaleX(0) scaleY(0);
 }
 
-
 .bg-effect {
   transform: scaleX(0) scaleY(0);
   transform-origin: center bottom;
   border-radius: 100% 100% 0 0;
   animation: bg-expand 800ms forwards;
 }
-
 
 @keyframes bg-expand {
   0% {

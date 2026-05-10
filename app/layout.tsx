@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,  } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import { GeistPixelSquare } from "geist/font/pixel";
 import "./globals.css";
 
@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Anjel - Builder",
-  description: "Portfolio of Anjel Rana, a builder and developer, showcasing projects, skills, and experience in the tech industry.",
+  description:
+    "Portfolio of Anjel Rana, a builder and developer, showcasing projects, skills, and experience in the tech industry.",
 };
 
 export default function RootLayout({
@@ -24,12 +24,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-
   return (
     <html lang="en" className="dark">
       {/* ${geistSans.variable} ${geistMono.variable} */}
-      <body className={`${GeistPixelSquare.className} w-screen h-full antialiased`}>
+      <body
+        className={`${GeistPixelSquare.className} w-screen h-full antialiased`}
+      >
         {children}
       </body>
     </html>
