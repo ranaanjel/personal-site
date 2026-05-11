@@ -6,6 +6,22 @@ body {
   padding: 0;
 }
 
+.bigtext {
+  background : linear-gradient(to top,rgb(234 179 8 / 0.7) 10%, rgb(249 115 22 / 0.7) 40%, transparent 80%);
+  animation : grad 3s forwards linear;
+}
+
+@keyframes grad {
+  0% {
+    opacity:0;
+  }
+
+  100% {
+    opacity:1;
+  }
+  
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

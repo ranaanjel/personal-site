@@ -2,13 +2,15 @@ export function UnderLineLink({
   text,
   hrefValue,
   type,
+  tooltipValue,
 }: {
   text: string;
   hrefValue?: string;
   type: "normal" | "small";
+  tooltipValue?: string;
 }) {
   return (
-    <div className="relative group inline-block hover:decoration-wavy hover:underline">
+    <div className="relative group inline-block hover:decoration-wavy hover:underline hover:font-bold hover:cursor-pointer">
       <a
         href={hrefValue}
         className={
