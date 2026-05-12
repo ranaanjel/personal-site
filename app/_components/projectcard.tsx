@@ -18,15 +18,20 @@ export default function DefaultProjectCard({
   description: string;
   tags: string[];
 }) {
+
+  let unoptimizedValue = imgSrc.endsWith(".gif") ; 
+
+
   return (
     <div className="flex gap-5 space-between dark:text-zinc-300 text-black rounded-lg  transition-colors p-2 dark:hover:bg-zinc-300/10 hover:bg-black/10">
       <div className="w-1/3 my-2 ">
         <Image
+          unoptimized={unoptimizedValue}
           src={imgSrc}
           height={400}
           alt="banner image"
           width={400}
-          className="h-32 border w-full object-fill"
+          className="h-32 border w-full object-cover md:object-fill"
         ></Image>
       </div>
       <div className="flex flex-col gap-1 pt-2 flex-1 ">

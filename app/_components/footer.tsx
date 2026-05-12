@@ -3,7 +3,7 @@ import { DateComp } from "./date";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between text-black dark:text-zinc-50 mb-6">
+    <div className="flex sm:justify-between justify-start items-start sm:items-center text-black dark:text-zinc-50 mb-6 sm:flex-row flex-col">
       <div className="flex gap-2 py-2 items-center">
         <div> currently in delhi </div>
         <DateComp></DateComp>

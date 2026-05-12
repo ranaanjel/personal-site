@@ -10,14 +10,14 @@ export function Table({
   let [leftHeader, rightHeader] = header;
 
   return (
-    <div className="overflow-x-auto  w-full border dark:border-zinc-300/50 rounded-sm border-black/50 dark:text-zinc-300 text-black  ">
+    <div className="overflow-x-auto  md:w-full w-72 border dark:border-zinc-300/50 rounded-sm border-black/50 dark:text-zinc-300 text-black  ">
       <div>
-        <div className="flex text-xl w-full border-b dark:border-zinc-300/50 border-black/50">
+        <div className="flex text-xl md:w-full w-102 border-b dark:border-zinc-300/50 border-black/50">
           <div className="p-2 w-2/5 border-r">{leftHeader}</div>
           <div className="p-2 w-3/5">{rightHeader}</div>
         </div>
       </div>
-      <div>
+      <div className="md:w-full w-102">
         {data.map((obj, index) => {
           let borderBottom = index === data.length - 1 ? "" : " border-b ";
           let inactive = obj.active == false ? "" : "";

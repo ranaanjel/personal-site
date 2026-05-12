@@ -20,14 +20,15 @@ export default function BannerText() {
         // start : "top 80%" ,
         // end : "200% 100px" ,
         toggleClass : "bigtext",
-    }
-    }, 
-)
+    }} )
+
+    return () => tl.revert();
+
   });
 
   return (
-    <div className="relative text-zinc-300  text-[140px] leading-tight font-medium tracking-wider overflow-hidden w-full flex justify-center h-52 ">
-      <div className="relative top-19 w-1/3 text-center z-2">
+    <div className=" relative text-zinc-300  text-[140px] leading-tight font-medium tracking-wider overflow-hidden w-full flex justify-center h-52 border ">
+      <div className="relative top-19 w-1/3 min-w-140 text-center z-2">
         A01Z
       </div>
       <div ref={itemRef} className="w-full h-full absolute  z-1">

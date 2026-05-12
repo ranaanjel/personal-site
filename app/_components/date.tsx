@@ -4,24 +4,25 @@ import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 
 export function DateComp() {
-  let [hour, setHour] = useState(0);
-  let [mins, setMins] = useState(0);
+  let [hour, setHour] = useState("0");
+  let [mins, setMins] = useState("0");
   let [onClass, setOnClass] = useState("");
   let [imgSrc, setImgSrc] = useState<string>("");
 
   let hourHandle = useCallback(function () {
     var date = new Date();
     date.setMinutes(date.getMinutes() + 330);
-    let hour = date.getUTCHours();
+    let hour = date.getUTCHours().toString().padStart(2, "0");
     let mins = date.getUTCMinutes().toString().padStart(2, "0");
-    setHour(date.getUTCHours());
-    setMins(Number(mins));
+   
+    setHour(String(hour));
+    setMins(String(mins));
 
     let expression =
-      hour >= 8 && hour <= 21
+      Number(hour) >= 8 && Number(hour) <= 21
         ? "bg-green-600 rounded-full h-3 w-3"
         : "bg-gray-600 rounded-full h-3 w-3";
-    let source = hour >= 8 && hour <= 21 ? "/active.png" : "/sleep.png";
+    let source = Number(hour) >= 8 && Number(hour) <= 21 ? "/active.png" : "/sleep.png";
     setOnClass(expression);
     setImgSrc(source);
   }, []);

@@ -14,12 +14,12 @@ export default function KeyTypeAnimation({ text }: { text?: string }) {
   let words = ["indie builder.", "tech nerd.", "hardware enthusiast."];
 
   useGSAP(() => {
-    gsap.timeline({ repeat: -1, duration: 0.3 }).to(cursorRef.current, {
+    let t1 = gsap.timeline({ repeat: -1, duration: 0.3 }).to(cursorRef.current, {
       opacity: 0,
       ease: "sine",
     });
 
-    gsap
+   let t2 =  gsap
       .timeline({ repeat: -1, repeatDelay: 0.5 })
       .to(textRef.current, {
         text: {
@@ -72,6 +72,11 @@ export default function KeyTypeAnimation({ text }: { text?: string }) {
         duration: 0.5,
         ease: "power1.out",
       });
+
+      return function () {
+        t2.revert();
+        t1.revert();
+      }
   });
 
   return (

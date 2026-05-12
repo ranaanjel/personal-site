@@ -13,7 +13,7 @@ export const BlogData = [
   {
     date: "15/05/2026",
     title: "important weblinks for builders ",
-    link: "/blogs/weblinks",
+    link: "/blogs/weblink",
     tag: "resources",
   },
 ];
@@ -94,3 +94,28 @@ export const ProjectData: {
     tags: ["Typescript", "Nextjs", "Cloudflare"],
   },
 ];
+
+export const milestone2026 = [
+    { value: "finishing web-dev & web 3 cohort", completed: false },
+    { value: "starting a saas and generating $1000 MRR", completed: false },
+    { value: "hspu & muscle up", completed: false },
+    { value: "refractive surgery", completed: false },
+    { value: "going on a trek", completed: false },
+    {
+      value: "generating ₹70k revenue per from brick & mortar businesses",
+      completed: false,
+    },
+    {
+      value: "Paying off the debt, took for business",
+      completed: false,
+    },
+  ]
+export const update2026 = [{date:"feb 20", value:"Finished Android Repairing Course"}, {
+  date:"may 15", value : "Built a10z.dev"
+} ]
+export const archiveData = [{
+  yearId:2026,
+  description: "starting saas, finishing cohort & building system for business", 
+  updates : update2026, 
+  milestones : milestone2026
+}]

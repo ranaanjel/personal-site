@@ -25,11 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html data-scroll-behavior="smooth" lang="en" className="dark">
       {/* ${geistSans.variable} ${geistMono.variable} */}
       <body
         className={`${GeistPixelSquare.className} w-screen h-full antialiased`}
-      >
+      > 
         {children}
       </body>
     </html>
