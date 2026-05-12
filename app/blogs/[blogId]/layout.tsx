@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from "react"
 
-export default function Layout({children}:{children:React.ReactElement}) {
+export default function Layout({children}:Readonly<{children:React.ReactNode}>) {
 
 
     useEffect(() => {
