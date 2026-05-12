@@ -19,7 +19,7 @@ export default function Home() {
            <ModeDarkChange></ModeDarkChange>
           <ModeLightChange></ModeLightChange>
         </div>
-      <div className="z-10 max-h-screen snap-y snap-proximity overflow-scroll no-scrollbar"  >
+      <div className="z-10 max-h-screen overflow-scroll no-scrollbar"  >
         <div className="md:min-w-140 md:w-1/3 m-auto w-full px-6 flex flex-col gap-6">
            <HeroSection ></HeroSection>
         {/* <UnderWavyLineLink text={"X"}></UnderWavyLineLink> */}

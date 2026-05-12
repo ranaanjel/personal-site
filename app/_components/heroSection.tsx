@@ -4,7 +4,7 @@ import { Paragraph } from "./paragraph";
 
 export default function HeroSection() {
   return (
-    <div className="snap-start  h-screen flex flex-col items-start sm:pt-45 mt-20 dark:text-zinc-50 text-gray-900 z-10 ">
+    <div className="  h-screen flex flex-col items-start sm:pt-45 mt-20 dark:text-zinc-50 text-gray-900 z-10 ">
       <h1 className="text-2xl my-3">Anjel</h1>
       <div className="dark:text-zinc-300/70 text-zinc-800 mb-6">
         <span className="text-xl">25,</span>

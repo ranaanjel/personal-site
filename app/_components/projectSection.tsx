@@ -3,7 +3,7 @@ import DefaultProjectCard from "./projectcard";
 
 export default function ProjectSection() {
   return (
-    <div className=" dark:text-zinc-300 text-black  py-6 snap-start ">
+    <div className=" dark:text-zinc-300 text-black  py-6 ">
       <div className="font-medium text-2xl mb-4">Projects I built</div>
       <div className="flex flex-col gap-4">
         {ProjectData.map((item, index) => {

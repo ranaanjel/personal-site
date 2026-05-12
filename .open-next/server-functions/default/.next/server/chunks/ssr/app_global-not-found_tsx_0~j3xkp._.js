@@ -1,0 +1,3 @@
+module.exports=[55789,a=>{"use strict";var b=a.i(4613);a.s(["default",0,function(){return(0,b.jsxs)("div",{children:[(0,b.jsx)("div",{children:"Not Found"}),(0,b.jsx)("div",{children:"The page you are looking for does not exist."})]})},"metadata",0,{title:"Not Found",description:"The Page you are looking for does not exist."}])},64628,a=>{a.n(a.i(55789))}];
+
+//# sourceMappingURL=app_global-not-found_tsx_0~j3xkp._.js.map
