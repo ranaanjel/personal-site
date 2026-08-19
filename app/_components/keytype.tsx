@@ -103,7 +103,7 @@ export function AnimateTextLightBulb({ text }: { text: string }) {
     });
   });
   return (
-    <div className="relative inline mt-2">
+    <div className="relative inline my-2">
       <span
         ref={textRef}
         className="text-lg text-gray-800 dark:text-zinc-300/70"

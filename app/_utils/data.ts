@@ -26,7 +26,7 @@ export const PursuitData: {
 }[] = [
   {
     value: "lifting / calesthenics",
-    year: 3,
+    year: 4,
     active: true,
     emoji: "🏋️",
   },
@@ -96,9 +96,11 @@ export const ProjectData: {
 ];
 
 export const milestone2026 = [
-    { value: "finishing web-dev & web 3 cohort", completed: false },
+    { value: "finishing web development cohort & devops cohort", completed: true },
+    { value: "fitness : muscle up", completed: true },
+    { value: "finishing web 3 cohort", completed: false },
     { value: "starting a saas and generating $1000 MRR", completed: false },
-    { value: "hspu & muscle up", completed: false },
+    { value: "fitness : hspu", completed: false },
     { value: "refractive surgery", completed: false },
     { value: "going on a trek", completed: false },
     {
@@ -112,6 +114,11 @@ export const milestone2026 = [
   ]
 export const update2026 = [{date:"feb 20", value:"Finished Android Repairing Course"}, {
   date:"may 15", value : "Built a10z.dev"
+}, {
+  date:"jun 30", value : "resigned from quikcrats, to build something meaning in tech"
+},
+  {
+  date:"aug 17", value : "finished my web-dev cohort & devops cohort, now starting web3 cohort"
 } ]
 export const archiveData = [{
   yearId:2026,

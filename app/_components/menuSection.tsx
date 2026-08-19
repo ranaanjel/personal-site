@@ -27,7 +27,7 @@ export default function MenuSection() {
 
 
   return (
-    <div className="flex space-between sm:gap-0 gap-2 sm:min-h-[80vh] md:my-20 my-10 scroll-mt-10 ">
+    <div className="flex space-between sm:gap-0 gap-2 sm:min-h-[80vh] my-20 sm:py-20 scroll-mt-10 ">
       <div className="sm:w-32 min-w-16 ">
         <nav className="flex flex-col space-y-4 text-gray-900 dark:text-zinc-300/70 font-medium">
           <li

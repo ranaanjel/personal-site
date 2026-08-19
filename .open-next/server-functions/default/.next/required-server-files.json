@@ -106,6 +106,9 @@
       }
     },
     "outputFileTracingRoot": "/home/atomic-lab/Desktop/development/portfolio",
+    "allowedDevOrigins": [
+      "192.168.1.7"
+    ],
     "cacheComponents": false,
     "cacheLife": {
       "default": {
