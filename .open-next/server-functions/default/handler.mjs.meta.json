@@ -4424,7 +4424,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/_0y1cxu3._.js": {
-      "bytes": 4281,
+      "bytes": 4436,
       "imports": [],
       "format": "cjs"
     },
@@ -4445,7 +4445,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__0stxrqy._.js": {
-      "bytes": 8939,
+      "bytes": 9044,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/.pnpm/next@16.2.4_@babel+core@7.29.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/shared/lib/no-fallback-error.external.js",
@@ -4676,7 +4676,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/_09uh6.n._.js": {
-      "bytes": 1340,
+      "bytes": 1495,
       "imports": [],
       "format": "cjs"
     },
@@ -8022,7 +8022,7 @@
           "bytesInOutput": 174074
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_0y1cxu3._.js": {
-          "bytesInOutput": 4436
+          "bytesInOutput": 4591
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_next-internal_server_app_archive_page_actions_0h8k2_7.js": {
           "bytesInOutput": 265
@@ -8031,7 +8031,7 @@
           "bytesInOutput": 23522
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__0stxrqy._.js": {
-          "bytesInOutput": 9114
+          "bytesInOutput": 9219
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_0q-r90q._.js": {
           "bytesInOutput": 174074
@@ -8067,7 +8067,7 @@
           "bytesInOutput": 5843
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_09uh6.n._.js": {
-          "bytesInOutput": 1470
+          "bytesInOutput": 1625
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_0etlh31._.js": {
           "bytesInOutput": 22140
@@ -8259,7 +8259,7 @@
           "bytesInOutput": 60193
         }
       },
-      "bytes": 3728679
+      "bytes": 3729094
     }
   }
 }
